@@ -1,18 +1,27 @@
-## Getting Started
+# Hibernate CRUD Project (Maven Based)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Maven-based Java project that demonstrates how to perform CRUD operations using Hibernate (Native API). It works with two PostgreSQL tables: `regions` and `countries` which are connected via a foreign key relationship.
 
-## Folder Structure
+## 📦 About the Maven Project
 
-The workspace contains two folders by default, where:
+This Maven project follows the standard directory structure:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+HibernateCrudProject/
+├── src/
+│ ├── main/
+│ │ ├── java/ # Contains entity classes and main logic
+│ │ └── resources/ # Contains hibernate.cfg.xml configuration
+├── pom.xml # Maven configuration file
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The project uses Hibernate’s native API to manage database operations and uses PostgreSQL as the database backend.
 
-## Dependency Management
+## 🔧 Technologies Used
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java 24
+- Maven
+- Hibernate (Native API)
+- PostgreSQL
+
+## 🧑‍💻 Authorized by  
+**Anurag Mane**
